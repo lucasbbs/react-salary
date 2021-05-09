@@ -39,8 +39,8 @@ function round(value) {
 function calculateDiscountINSS(baseINSS) {
   let discountINSS = 0;
 
-  if (baseINSS > 6101.07) {
-    return 713.1;
+  if (baseINSS > 6433.57) {
+    return 751.97;
   }
 
   for (var i = 0; i < INSS_TABLE.length; i++) {

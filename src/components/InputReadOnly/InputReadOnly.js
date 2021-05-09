@@ -34,7 +34,7 @@ export default function InputReadOnly({ onCalculate }) {
         <div className='input-field col s3'>
           <input
             disabled
-            value={` R$ ${formatValue(discountINSS)} (${percentageINSS}) `}
+            value={` R$ ${formatValue(discountINSS)}`}
             id='disabled'
             type='text'
             className={css.inss}
@@ -46,9 +46,7 @@ export default function InputReadOnly({ onCalculate }) {
         <div className='input-field col s3'>
           <input
             disabled
-            value={` R$ ${formatValue(
-              discountDependentes
-            )} (${percentageDependentes}) `}
+            value={` R$ ${formatValue(discountDependentes)}`}
             id='disabled'
             type='text'
             className={css.inss}
@@ -72,7 +70,7 @@ export default function InputReadOnly({ onCalculate }) {
         <div className='input-field col s2'>
           <input
             disabled
-            value={`R$ ${formatValue(discountIRPF)} (${percentageIRPF})`}
+            value={`R$ ${formatValue(discountIRPF)}`}
             id='disabled'
             type='text'
             className={css.irpf}
@@ -86,7 +84,7 @@ export default function InputReadOnly({ onCalculate }) {
         <div className='input-field col s6'>
           <input
             disabled
-            value={`R$ ${formatValue(netSalary)} (${percentageSalary})`}
+            value={`R$ ${formatValue(netSalary)}`}
             id='disabled'
             type='text'
             className={css.salarioLiquido}
